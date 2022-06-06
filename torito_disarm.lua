@@ -8,7 +8,7 @@ assert(param:add_param(PARAM_TABLE_KEY, 1,  'DIST_SENS', 10), 'could not add par
 assert(param:add_param(PARAM_TABLE_KEY, 2,  'DIST_CONT', 2), 'could not add param2')
 assert(param:add_param(PARAM_TABLE_KEY, 3,  'LANDING_ALT', 50), 'could not add param3')
 assert(param:add_param(PARAM_TABLE_KEY, 4,  'ALTITUDE_DIFF', 200), 'could not add param4')
-assert(param:add_param(PARAM_TABLE_KEY, 5,  'DEBUG_ENABLE', 1), 'could not add param5')
+assert(param:add_param(PARAM_TABLE_KEY, 5,  'DEBUG_ENABLE', 0), 'could not add param5')
 
 -- define parameters
 local TOR_DIST_SENS = Parameter() 
