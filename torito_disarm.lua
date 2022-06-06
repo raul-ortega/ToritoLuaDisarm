@@ -87,9 +87,7 @@ function setCondAlt (value)
   end
 end
 
-
-
-local rngfnd_init_alt = rangefinder_distance()
+--local rngfnd_init_alt = rangefinder_distance()
 
 function update ()
 	
@@ -101,7 +99,7 @@ function update ()
 	
 	cond_armed = arming:is_armed()
 	
-	distance_sensor = rangefinder_distance() - rngfnd_init_alt
+	distance_sensor = rangefinder_distance() -- - rngfnd_init_alt
 	
 	cond_alt = (distance_sensor <= TOR_DIST_SENS:get())
 	
