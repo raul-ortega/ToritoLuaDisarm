@@ -51,7 +51,7 @@ local cond_flight_modes = {
     21, -- PLANE_MODE_QRTL
     19, -- PLANE_MODE_QLOITER
     18, -- PLANE_MODE_QHOVER
-    17 	-- PLANE_MODE_QSTABILIZE
+    17	-- PLANE_MODE_QSTABILIZE
 }
 
 function rangefinder_distance  ()
@@ -108,7 +108,7 @@ function update ()
 	-- evaluate cond_mode
 	local flight_mode = vehicle:get_mode()
 	
-	for i = 1, 6 do
+	for i = 1, 7 do
 		if cond_flight_modes[i] == flight_mode then
 			cond_mode = true
 			break 
