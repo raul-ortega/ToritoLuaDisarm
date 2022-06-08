@@ -32,11 +32,11 @@ Para instalar el script lua, seguiremos estos pasos:
 
 El parámetro **TOR_DEBUG_ENABLE** admite 3 valores:
 
-**0:** Deshabilitado, no se envían mensaje a la ground station.
+- **0:** Deshabilitado, no se envían mensaje a la ground station.
 
-**1:** Se envía **un mensaje una vez por segundo**, con datos útiles para la **depuración** de posibles **errores**.
+- **1:** Se envía **un mensaje una vez por segundo**, con datos útiles para la **depuración** de posibles **errores**.
 
-**2:** Se envía **un mensaje en los cambios de estado**: Taking off, Flying, Landing, Landed, Disarmed, Can't disarm. En los dos últimos casos se muestra en centímetros la distancia del rangefinder y la altitud ahrs. Esta es la opción recomendada.
+- **2:** Se envía **un mensaje en los cambios de estado**: Taking off, Flying, Landing, Landed, Disarmed, Can't disarm. En los dos últimos casos se muestra en centímetros la distancia del rangefinder y la altitud ahrs. Esta es la opción recomendada.
 
 ## Demostración
 
