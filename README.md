@@ -1,8 +1,8 @@
 # ToritoLuaDisarm
 
-**Lua script** para **desarmar motores** en **tail-sitter** con firmware **Arduplane** 4.2.x y dotado de un sensor de distancia de precisión (**rangefinder**).
+**Lua script** para **desarmar motores** en **quadplanes/tail-sitter** con firmware **Arduplane** 4.2.x y dotado de un sensor de distancia de precisión (**rangefinder**).
 
-Arduplane no desarma motores de forma inmediata al posarse la aeronave en el suelo, lo que puede ocasionar un vuelco no deseado, y que requiere habilidad por parte del piloto para pasar a otro modo de vuelo y/o desarmar de forma manual para evitar el accidente.
+Arduplane no desarma motores de forma inmediata al posarse la aeronave en el suelo, lo que puede ocasionar un vuelco no deseado, y que requiere habilidad por parte del piloto para pasar a otro modo de vuelo y/o desarmar de forma manual para evitar el accidente, especialmente en los tail-sitter.
 
 ## Funcionamiento
 
